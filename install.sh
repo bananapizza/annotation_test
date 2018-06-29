@@ -53,7 +53,7 @@ sudo apt-get install -y postgresql
 sudo apt-get install -y dos2unix
 
 wget http://hgwdev.cse.ucsc.edu/~kent/exe/linux/axtChainNet.zip
-wget http://bioinf.uni-greifswald.de/augustus/binaries/augustus-3.3.tar.gz
+#wget http://bioinf.uni-greifswald.de/augustus/binaries/augustus-3.3.tar.gz
 #wget http://www.repeatmasker.org/RepeatMasker-open-4-0-7.tar.gz
 wget ftp://ftp.ncbi.nlm.nih.gov/blast/executables/rmblast/2.2.28/ncbi-rmblastn-2.2.28-x64-linux.tar.gz
 wget http://tandem.bu.edu/trf/downloads/trf409.linux64
@@ -117,7 +117,7 @@ sudo ln -s trf409.linux64 /usr/local/RepeatMasker
 sudo mv -f trf409.linux64 /usr/local/bin
 
 # augustus
-tar xvzf augustus-3.3.tar.gz
+tar xvf augustus-3.3.1.tar
 cd augustus
 make
 cd src
@@ -151,6 +151,6 @@ dos2unix AGAPE/intervals.sh
 dos2unix AGAPE/non_ref.sh
 dos2unix AGAPE/run_comb_annot.sh
 
-rm -f axtChainNet.zip augustus-3.3.tar.gz RepeatMasker-open-4-0-7.tar.gz ncbi-rmblastn-2.2.28-x64-linux.tar.gz maker-2.31.9.tgz
+rm -f axtChainNet.zip augustus-3.3.1tar RepeatMasker-open-4-0-7.tar ncbi-rmblastn-2.2.28-x64-linux.tar.gz maker-2.31.9.tgz
 rm -rf nanoscope thesis annotation_test ncbi-rmblastn-2.2.28 ucsc_tools
 rm -f install.shg
