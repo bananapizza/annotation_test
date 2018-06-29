@@ -118,12 +118,12 @@ sudo mv -f trf409.linux64 /usr/local/bin
 
 # augustus
 tar xvzf augustus-3.3.1.tar.gz
-cd augustus
+cd augustus-3.3.1
 make
 cd src
 make
 cd ../..
-mv -f augustus AGAPE/programs/augustus
+mv -f augustus-3.3.1 AGAPE/programs/augustus-3.3.1
 
 # maker
 tar xvzf maker-2.31.9.tgz
