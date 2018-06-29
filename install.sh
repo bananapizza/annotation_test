@@ -117,7 +117,7 @@ sudo ln -s trf409.linux64 /usr/local/RepeatMasker
 sudo mv -f trf409.linux64 /usr/local/bin
 
 # augustus
-tar xvf augustus-3.3.1.tar
+tar xvzf augustus-3.3.1.tar.gz
 cd augustus
 make
 cd src
@@ -151,6 +151,6 @@ dos2unix AGAPE/intervals.sh
 dos2unix AGAPE/non_ref.sh
 dos2unix AGAPE/run_comb_annot.sh
 
-rm -f axtChainNet.zip augustus-3.3.1tar RepeatMasker-open-4-0-7.tar ncbi-rmblastn-2.2.28-x64-linux.tar.gz maker-2.31.9.tgz
+rm -f axtChainNet.zip augustus-3.3.1tar.gz RepeatMasker-open-4-0-7.tar ncbi-rmblastn-2.2.28-x64-linux.tar.gz maker-2.31.9.tgz
 rm -rf nanoscope thesis annotation_test ncbi-rmblastn-2.2.28 ucsc_tools
 rm -f install.shg
