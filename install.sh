@@ -109,7 +109,7 @@ sudo cp ncbi-rmblastn-2.2.28/bin/rmblastn /usr/bin
 # RepeatMasker
 tar xvzf RepeatMasker-open-4-0-7.tar.gz
 tar xvzf RepBaseRepeatMaskerEdition-20170127.tar.gz
-sudo cp -r Libraries RepeatMasker/Libraries
+sudo cp -r Libraries RepeatMasker
 sudo cp -r RepeatMasker /usr/local/RepeatMasker
 mv -f RepeatMasker AGAPE/programs/RepeatMasker
 
