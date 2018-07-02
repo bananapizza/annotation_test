@@ -125,7 +125,7 @@ make
 cd src
 make
 cd ../..
-mv -f augustus-3.3.1 AGAPE/programs/augustus-3.3.1
+mv -f augustus-3.3.1 AGAPE/programs/augustus
 
 # maker
 tar xvzf maker-2.31.9.tgz
