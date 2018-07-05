@@ -119,13 +119,13 @@ sudo ln -s trf409.linux64 /usr/local/RepeatMasker
 sudo mv -f trf409.linux64 /usr/local/bin
 
 # augustus
-tar xvzf augustus-3.3.1.tar.gz
-cd augustus-3.3.1
+#tar xvzf augustus-3.3.1.tar.gz
+cd augustus
 make
 cd src
 make
 cd ../..
-mv -f augustus-3.3.1 AGAPE/programs/augustus
+mv -f augustus AGAPE/programs/augustus
 
 # maker
 tar xvzf maker-2.31.9.tgz
